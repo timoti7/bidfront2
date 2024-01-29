@@ -4,7 +4,7 @@ import SingleTestimonial from "./SingleTestimonial";
 
 const testimonialData: Testimonial[] = [
   {
-    id: 1,
+    idk: 1,
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
     content:
@@ -13,7 +13,7 @@ const testimonialData: Testimonial[] = [
     star: 5,
   },
   {
-    id: 2,
+    idk: 2,
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
@@ -22,7 +22,7 @@ const testimonialData: Testimonial[] = [
     star: 5,
   },
   {
-    id: 3,
+    idk: 3,
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:
@@ -44,7 +44,7 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+            <SingleTestimonial key={testimonial.idk} testimonial={testimonial} />
           ))}
         </div>
       </div>

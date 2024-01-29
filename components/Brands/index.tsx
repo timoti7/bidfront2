@@ -13,7 +13,7 @@ const Brands = () => {
               data-wow-delay=".1s"
             >
               {brandsData.map((brand) => (
-                <SingleBrand key={brand.id} brand={brand} />
+                <SingleBrand key={brand.idb} brand={brand} />
               ))}
             </div>
           </div>
